@@ -1,0 +1,18 @@
+step 01:
+	goto project folder
+	
+step 02:
+	$: sudo apt install cmake
+	$: sudo apt install g++
+	
+step 02:
+	$: mkdir build
+	$: cd build
+	$: cmake ..
+	$: make
+	$: sudo make install
+	$: ./my_project
+	
+# it will install project in bin folder and execute our project:
+	 Output will be : Name : Earth
+	 		   Age : 4.543
